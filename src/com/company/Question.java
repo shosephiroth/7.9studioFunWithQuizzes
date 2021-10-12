@@ -18,9 +18,9 @@ public abstract class Question {
         System.out.println(questionText);
     }
 
-    public abstract void displayAnswer();
+    public abstract void displayAnswers();
 
-    public abstract int getAnswers();
+    public abstract int getAnswer();
 
     public void setPointValue(int pointValue) {
         this.pointValue = pointValue;
